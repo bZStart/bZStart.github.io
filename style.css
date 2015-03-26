@@ -1,4 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Oswald:700); @import url(http://fonts.googleapis.com/css?family=Droid+Serif);  .mainText{ font-family:'Oswald', Arial, sans-serif; tex-align:center; position:relative; top:100px; color:white; }   subText{ font-family:'Droid Serif',Arial, sans-serif; tex-align:center; position:relative; top:110px; color:white; }
+@import url(http://fonts.googleapis.com/css?family=Oswald:700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+.mainText{ font-family:'Oswald', Arial, sans-serif; tex-align:center; position:relative; top:100px; color:white; }  
+.subText{ font-family:'Droid Serif',Arial, sans-serif; tex-align:center; position:relative; top:110px; color:white; }
 
 body {
 background:url('/background.jpg') no-repeat;

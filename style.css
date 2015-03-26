@@ -4,7 +4,7 @@
 .subText{ font-family:'Droid Serif',Arial, sans-serif; left:350px; tex-align:center; tex-align:-webkit-center;  position:relative; top:110px; color:white;font-size:40px; }
 
 .subTextmin{
-  left:550px !important;
+  left:500px !important;
 }
 body {
 background:url('/background.jpg') no-repeat;

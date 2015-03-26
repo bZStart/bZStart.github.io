@@ -6,6 +6,9 @@
 .subTextmin{
   left:500px !important;
 }
+.subTextminsize{
+  font-size:30px; !important;
+}
 body {
 background:url('/background.jpg') no-repeat;
 }

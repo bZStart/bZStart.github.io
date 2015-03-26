@@ -3,6 +3,9 @@
 .mainText{ font-family:'Oswald', Arial, sans-serif; left:600px; tex-align:center; tex-align:-webkit-center; position:relative; top:100px; color:white;font-size:70px; }  
 .subText{ font-family:'Droid Serif',Arial, sans-serif; left:350px; tex-align:center; tex-align:-webkit-center;  position:relative; top:110px; color:white;font-size:40px; }
 
+.subTextmin{
+  left:450px !important;
+}
 body {
 background:url('/background.jpg') no-repeat;
 }

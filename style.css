@@ -10,7 +10,7 @@
   left:550px !important;
   font-size:30px; !important;
 }
-body {
+.main {
 background:url('/background.jpg') no-repeat;
 }
 

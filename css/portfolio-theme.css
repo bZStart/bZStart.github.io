@@ -1,8 +1,56 @@
+
 body {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	background-color: rgba(0, 0, 0, 0.02);
 }
+
+.darksection{
+	background-color:#d4d4d5;
+}
+
+.paragcenter{
+
+    text-align: -webkit-center;
+    text-align: center;
+}
+
+.buttoncolor{
+	background-color:#ffbb00;
+}
+
+.contactInfo{
+
+    text-align: center;
+    text-align: -webkit-center;
+    margin-bottom: 15px;
+    border-style: dashed;
+    border-color: orange;
+    border-left-style: none;
+    border-right-style: none;
+    margin-top: 10px;
+}
+
+.top-bar-section ul li > a{
+
+	color:#000;
+	background-color: #FAFAFA!important;
+}
+.top-bar , .contain-to-grid , .top-bar.expanded , .imgback{
+	background-color: #FAFAFA;
+}
+
+.top-bar-section ul li > a:hover{
+color:#E59B46!important;	
+}
+
+.shadow{
+box-shadow: 0 6px 4px -4px rgba(0,0,0,.3);	
+}
+
+/*Sticky OffCanvas Menu*/
+.mycontent{height:95vh;overflow-y:scroll;} 
+
 
 .button {
 	font-family: 'Raleway', Helvetica, Arial, sans-serif;	
@@ -33,7 +81,7 @@ body {
 }
 
 .namelogo {
-	padding: 20px 10px 0px 10px;
+	padding: 1px 10px 0px 10px;
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -62,29 +110,94 @@ body {
 	}
 }
 
+@media (min-width: 30.313em) and (max-width: 40.750em) {
+
 .hero{
-	background: url("../../img/develop/template-themes/portfolio6.jpg");
-	background-size: cover;
-	box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
-	height: 80%;
+
+background: url("../img/bzstartbackground_mean_size.png") no-repeat!important;
+
+box-shadow: inset 0px 0px 0 0px rgba(0,0,0,0.15)!important;
+
+     }
+
+}
+
+@media (min-width: 40.751em) and (max-width: 46.625em) {
+
+.hero{
+
+background: url("../img/bzstartbackground_medium_size.png") !important;
+
+     }
+
+}
+
+@media (max-width: 27.500em) {
+
+.hero{
+
+background: url("../img/bzstartbackground_small_size.png") no-repeat!important;
+
+box-shadow: inset 0px 0px 0 0px rgba(0,0,0,0.15)!important;
+
+     }
+
+}
+
+.hero{
+
+background: url("../img/bzstartbackground.png");
+
+background-size: cover;
+
+box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.15);
+
+height: 80%;
+
 }
 
 .intro-text {
-	padding-top: 40%;
-	color: rgba(255, 255, 255, 1);
-	text-align: center;
+
+padding-top: 40%;
+
+color: rgba(255, 255, 255, 1);
+
+text-align: center;
+
 }
 
-@media only screen and (min-width: 40.063em) {
-	.intro-text{
-		padding-top: 25%;
-	}
+@media (min-width: 20.000em) {
+
+.intro-text{
+
+padding-top: 0%;
+
 }
 
-@media only screen and (min-width: 64.063em) {
-	.intro-text{
-		padding-top: 18%;
-	}
+.intro-text p{
+	font-size: 31px!important;
+}
+
+}
+
+@media (min-width: 40.063em) {
+
+.intro-text{
+
+padding-top: 10%;
+
+}
+
+}
+
+@media (min-width: 64.063em) {
+
+.intro-text{
+
+padding-top: 18%;
+
+}
+
 }
 
 .intro-text p{
@@ -97,15 +210,15 @@ body {
 }
 
 .about img{
-	width: 250px;
-	height: 250px;
+	width: 80%;
+	height: 80%;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
 	-moz-border-radius: 150px;	
 }
 
 .work img:hover {
-	opacity: 0.5;
+	/*opacity: 0.5;*/
 	-webkit-transition: 0.3s ease;
 	-moz-transition: 0.3s ease;
 	-ms-transition: 0.3s ease;
@@ -129,7 +242,7 @@ hr {
 }
 
 footer {
-	padding: 80px 0 10px 0;
+	padding: 0px 0 0px 0;
 }
 
 footer a:hover {

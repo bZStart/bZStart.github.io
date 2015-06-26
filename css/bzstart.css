@@ -5,6 +5,13 @@ body {
 	background-color: rgba(0, 0, 0, 0.02);
 }
 
+
+/*ie8 sPECK*/
+.linkdestak{
+	display:none !important;
+}
+/* Final ie8 */
+
 .darksection{
 	background-color:#d4d4d5;
 }

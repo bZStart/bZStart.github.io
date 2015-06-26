@@ -35,7 +35,15 @@ body {
 
 	color:#000;
 	background-color: #FAFAFA!important;
+	font-size: 15px;
+
 }
+
+.imgback{
+    padding-left: 10px;
+    padding-top: 2px;
+}
+
 .top-bar , .contain-to-grid , .top-bar.expanded , .imgback{
 	background-color: #FAFAFA;
 }

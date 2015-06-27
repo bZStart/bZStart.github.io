@@ -16,7 +16,7 @@
 	color:#fff!important;
 }
 
-.top-bar-section li {
+.top-bar-section li , .top-bar li {
       width: 120px;
       border-bottom: none;
       height: 50px;
@@ -25,7 +25,7 @@
       margin-left: -4px;
     }
 
-    
+
 .hero img {
   /* Set rules to fill background */
   min-height: 100%;

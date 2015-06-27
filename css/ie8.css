@@ -16,6 +16,16 @@
 	color:#fff!important;
 }
 
+.top-bar-section li {
+      width: 120px;
+      border-bottom: none;
+      height: 50px;
+      line-height: 50px;
+      display: inline-block;
+      margin-left: -4px;
+    }
+
+    
 .hero img {
   /* Set rules to fill background */
   min-height: 100%;

@@ -7,7 +7,7 @@
 	display:block!important;
 }
 
-.hero.img {
+.hero > img {
   /* Set rules to fill background */
   min-height: 100%;
   min-width: 1024px;
@@ -23,7 +23,7 @@
 }
 
 @media screen and (max-width: 1024px) { /* Specific to this particular image */
-  .hero.img {
+  .hero > img {
     left: 50%;
     margin-left: -512px;   /* 50% */
   }

@@ -12,6 +12,10 @@
 	height: 30%!important;
 }
 
+.intro-text p{
+	color:#fff!important;
+}
+
 .hero img {
   /* Set rules to fill background */
   min-height: 100%;
